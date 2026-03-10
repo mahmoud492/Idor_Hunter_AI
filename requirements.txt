@@ -1,0 +1,5 @@
+requests
+cryptography
+pycryptodome
+python-dotenv
+beautifulsoup4
