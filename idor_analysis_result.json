@@ -1,0 +1,14 @@
+{
+  "target": "https://example.com",
+  "timestamp": "2026-03-11T09:43:16.225007",
+  "agent_results": {
+    "js_analyzer": {
+      "error": "HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+    },
+    "html_analyzer": {
+      "error": "HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+    }
+  },
+  "duration_seconds": 0.267279,
+  "agents_used": 2
+}

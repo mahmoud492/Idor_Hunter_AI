@@ -4,4 +4,3 @@ python-dotenv
 tweepy
 github3.py
 beautifulsoup4
-google-generativeai

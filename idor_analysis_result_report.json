@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "total_agents": 12,
+    "analysis_time": 0.267279,
+    "target": "https://example.com"
+  },
+  "findings": {},
+  "recommendations": []
+}

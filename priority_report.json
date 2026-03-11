@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-03-11T09:38:54.212497",
+  "total": 3,
+  "severity_counts": {
+    "Critical": 1,
+    "High": 1,
+    "Medium": 0,
+    "Low": 1,
+    "Info": 0
+  },
+  "grouped": {
+    "Critical": [
+      {
+        "id": "IDOR-001",
+        "name": "Admin Panel Access",
+        "endpoint": "/admin/dashboard",
+        "parameter": "user_id",
+        "impact_score": 1.0,
+        "exploitability_score": 0.9,
+        "data_sensitivity_score": 0.4,
+        "cvss_score": 0.95,
+        "final_score": 0.8500000000000001,
+        "severity": "Critical",
+        "recommendation": "Implement role-based access control"
+      }
+    ],
+    "High": [
+      {
+        "id": "IDOR-002",
+        "name": "User Profile Data",
+        "endpoint": "/api/user/profile",
+        "parameter": "id",
+        "impact_score": 0.5,
+        "exploitability_score": 0.6,
+        "data_sensitivity_score": 0.9,
+        "cvss_score": 0.55,
+        "final_score": 0.61,
+        "severity": "High",
+        "recommendation": "Verify user ownership"
+      }
+    ],
+    "Medium": [],
+    "Low": [
+      {
+        "id": "IDOR-003",
+        "name": "Public Information",
+        "endpoint": "/api/posts",
+        "parameter": "post_id",
+        "impact_score": 0.5,
+        "exploitability_score": 0.3,
+        "data_sensitivity_score": 0.2,
+        "cvss_score": 0.4,
+        "final_score": 0.38,
+        "severity": "Low",
+        "recommendation": "No action needed"
+      }
+    ],
+    "Info": []
+  },
+  "top_priority": [
+    {
+      "id": "IDOR-001",
+      "name": "Admin Panel Access",
+      "endpoint": "/admin/dashboard",
+      "parameter": "user_id",
+      "impact_score": 1.0,
+      "exploitability_score": 0.9,
+      "data_sensitivity_score": 0.4,
+      "cvss_score": 0.95,
+      "final_score": 0.8500000000000001,
+      "severity": "Critical",
+      "recommendation": "Implement role-based access control"
+    },
+    {
+      "id": "IDOR-002",
+      "name": "User Profile Data",
+      "endpoint": "/api/user/profile",
+      "parameter": "id",
+      "impact_score": 0.5,
+      "exploitability_score": 0.6,
+      "data_sensitivity_score": 0.9,
+      "cvss_score": 0.55,
+      "final_score": 0.61,
+      "severity": "High",
+      "recommendation": "Verify user ownership"
+    },
+    {
+      "id": "IDOR-003",
+      "name": "Public Information",
+      "endpoint": "/api/posts",
+      "parameter": "post_id",
+      "impact_score": 0.5,
+      "exploitability_score": 0.3,
+      "data_sensitivity_score": 0.2,
+      "cvss_score": 0.4,
+      "final_score": 0.38,
+      "severity": "Low",
+      "recommendation": "No action needed"
+    }
+  ],
+  "statistics": {
+    "average_score": 0.6133333333333334,
+    "max_score": 0.8500000000000001,
+    "min_score": 0.38
+  }
+}
